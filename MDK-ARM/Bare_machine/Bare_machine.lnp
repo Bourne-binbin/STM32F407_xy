@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"bare_machine\startup_stm32f407xx.o"
+"bare_machine\main.o"
+"bare_machine\gpio.o"
+"bare_machine\usart.o"
+"bare_machine\stm32f4xx_it.o"
+"bare_machine\stm32f4xx_hal_msp.o"
+"bare_machine\stm32f4xx_hal_tim.o"
+"bare_machine\stm32f4xx_hal_tim_ex.o"
+"bare_machine\stm32f4xx_hal_uart.o"
+"bare_machine\stm32f4xx_hal_rcc.o"
+"bare_machine\stm32f4xx_hal_rcc_ex.o"
+"bare_machine\stm32f4xx_hal_flash.o"
+"bare_machine\stm32f4xx_hal_flash_ex.o"
+"bare_machine\stm32f4xx_hal_flash_ramfunc.o"
+"bare_machine\stm32f4xx_hal_gpio.o"
+"bare_machine\stm32f4xx_hal_dma_ex.o"
+"bare_machine\stm32f4xx_hal_dma.o"
+"bare_machine\stm32f4xx_hal_pwr.o"
+"bare_machine\stm32f4xx_hal_pwr_ex.o"
+"bare_machine\stm32f4xx_hal_cortex.o"
+"bare_machine\stm32f4xx_hal.o"
+"bare_machine\stm32f4xx_hal_exti.o"
+"bare_machine\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Bare_machine\Bare_machine.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bare_machine.map" -o Bare_machine\Bare_machine.axf
