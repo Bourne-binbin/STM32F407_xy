@@ -32,12 +32,12 @@ bare_machine\icmp6.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ra
 bare_machine\icmp6.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 bare_machine\icmp6.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 bare_machine\icmp6.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+bare_machine\icmp6.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 bare_machine\icmp6.o: ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h
 bare_machine\icmp6.o: ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h
 bare_machine\icmp6.o: ../Middlewares/Third_Party/LwIP/system/arch/cc.h
 bare_machine\icmp6.o: ../Middlewares/Third_Party/LwIP/system/arch/cpu.h
 bare_machine\icmp6.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-bare_machine\icmp6.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 bare_machine\icmp6.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 bare_machine\icmp6.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
 bare_machine\icmp6.o: ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h

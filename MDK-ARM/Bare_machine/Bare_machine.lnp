@@ -7,6 +7,7 @@
 "bare_machine\usart.o"
 "bare_machine\stm32f4xx_it.o"
 "bare_machine\stm32f4xx_hal_msp.o"
+"bare_machine\tcpecho.o"
 "bare_machine\stm32f4xx_hal_eth.o"
 "bare_machine\stm32f4xx_hal_tim.o"
 "bare_machine\stm32f4xx_hal_tim_ex.o"

@@ -716,7 +716,6 @@ __weak void ethernetif_notify_conn_changed(struct netif *netif)
   /* NOTE : This is function could be implemented in user file 
             when the callback is needed,
   */
-
 }
 /* USER CODE END 8 */ 
 #endif /* LWIP_NETIF_LINK_CALLBACK */

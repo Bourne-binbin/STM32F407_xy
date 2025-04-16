@@ -134,7 +134,7 @@ void MX_LWIP_Process(void)
   sys_check_timeouts();
 
 /* USER CODE BEGIN 4_3 */
-	ethernetif_set_link(&gnetif);
+	//ethernetif_set_link(&gnetif);
 /* USER CODE END 4_3 */
 }
 
