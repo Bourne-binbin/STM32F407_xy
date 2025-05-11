@@ -31,7 +31,7 @@ static void client_err(void *arg, err_t err)       //³öÏÖ´íÎóÊ±µ÷ÓÃÕâ¸öº¯Êı£¬´òÓ
 
 static err_t client_send(void *arg, struct tcp_pcb *tpcb)   //·¢ËÍº¯Êı£¬µ÷ÓÃÁËtcp_writeº¯Êı
 {
-  uint8_t send_buf[]= "ÎÒÊÇ¿Í»§¶Ë\n";
+  uint8_t send_buf[]= "ÎÒÊÇ¿Í»§¶Ë£¬The client test\n";
   
   //·¢ËÍÊı¾İµ½·şÎñÆ÷
   tcp_write(tpcb, send_buf, sizeof(send_buf), 1); 

@@ -58,15 +58,15 @@ void MX_LWIP_Init(void)
   /* IP addresses initialization */
   IP_ADDRESS[0] = 192;
   IP_ADDRESS[1] = 168;
-  IP_ADDRESS[2] = 31;
-  IP_ADDRESS[3] = 100;
+  IP_ADDRESS[2] = 1;
+  IP_ADDRESS[3] = 28;
   NETMASK_ADDRESS[0] = 255;
   NETMASK_ADDRESS[1] = 255;
   NETMASK_ADDRESS[2] = 255;
   NETMASK_ADDRESS[3] = 0;
   GATEWAY_ADDRESS[0] = 192;
   GATEWAY_ADDRESS[1] = 168;
-  GATEWAY_ADDRESS[2] = 31;
+  GATEWAY_ADDRESS[2] = 1;
   GATEWAY_ADDRESS[3] = 1;
   
   /* Initilialize the LwIP stack without RTOS */
@@ -134,7 +134,7 @@ void MX_LWIP_Process(void)
   sys_check_timeouts();
 
 /* USER CODE BEGIN 4_3 */
-	//ethernetif_set_link(&gnetif);
+
 /* USER CODE END 4_3 */
 }
 

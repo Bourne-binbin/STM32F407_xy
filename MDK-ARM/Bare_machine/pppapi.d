@@ -34,6 +34,8 @@ bare_machine\pppapi.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 bare_machine\pppapi.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 bare_machine\pppapi.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 bare_machine\pppapi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+bare_machine\pppapi.o: ../Inc/tcpclient.h
+bare_machine\pppapi.o: ../Inc/tcpserver.h
 bare_machine\pppapi.o: ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h
 bare_machine\pppapi.o: ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h
 bare_machine\pppapi.o: ../Middlewares/Third_Party/LwIP/system/arch/cc.h

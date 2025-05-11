@@ -58,15 +58,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int fputc(int ch, FILE *f)
- 
-{
- 
-  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xffff);
- 
-  return ch;
- 
-}
+
+
 /* USER CODE END 0 */
 
 /**
@@ -76,7 +69,7 @@ int fputc(int ch, FILE *f)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	//printk("");
+	
   /* USER CODE END 1 */
   
 
@@ -102,7 +95,8 @@ int main(void)
   MX_LWIP_Init();
   /* USER CODE BEGIN 2 */
 	printf("STM32 start\n");
-
+	//TCP_Client_Init();
+  TCP_Echo_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,7 +107,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 		//printf("STM32 start\n");
-		
 		HAL_Delay(500);
 		HAL_GPIO_TogglePin(GPIOF, LED_RED_Pin);
 		HAL_GPIO_TogglePin(GPIOF, LED_GREEN_Pin);

@@ -31,4 +31,6 @@ bare_machine\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_p
 bare_machine\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 bare_machine\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 bare_machine\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+bare_machine\stm32f4xx_it.o: ../Inc/tcpclient.h
+bare_machine\stm32f4xx_it.o: ../Inc/tcpserver.h
 bare_machine\stm32f4xx_it.o: ../Inc/stm32f4xx_it.h

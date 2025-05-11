@@ -34,6 +34,14 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
+#include "tcpclient.h"
+#include "tcpserver.h"
+#define DEST_IP_ADDR0 192
+#define DEST_IP_ADDR1 168
+#define DEST_IP_ADDR2 1
+#define DEST_IP_ADDR3 99
+#define DEST_PORT 5001
+#define LOCAL_PORT 5001
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -48,14 +56,7 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-#define DEST_IP_ADDR0 192
-#define DEST_IP_ADDR1 168
-#define DEST_IP_ADDR2 31 
-#define DEST_IP_ADDR3 99
-#define DEST_PORT 5001
-#define UDP_SERVER_PORT 5002
-#define UDP_CLIENT_PORT 5002
-#define LOCAL_PORT 5001
+
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
